@@ -24,20 +24,20 @@ This Terraform module sets up **Role-Based Access Control (RBAC)** in AWS using 
 
 ## 📁 Module Structure
 aws-rbac/
-    ├── version.tf # Provider versions
-    ├── variables.tf # Input variables
-    ├── groups.tf # IAM groups
-    ├── policies.tf # Attach policies to groups
-    ├── role.tf # IAM role for EC2
-    ├── assume-role-policy.tf # Allow group to assume role
-    ├── outputs.tf # Outputs (group names, role names)
+├── version.tf # Provider versions
+├── variables.tf # Input variables
+├── groups.tf # IAM groups
+├── policies.tf # Attach policies to groups
+├── role.tf # IAM role for EC2
+├── assume-role-policy.tf # Allow group to assume role
+├── outputs.tf # Outputs (group names, role names)
 
 
 environments/
-    ├── dev.tfvars
-    ├── prod.tfvars
+├── dev.tfvars
+├── prod.tfvars
 
-    
+
 
 ├── main.tf
 ├── variables.tf
