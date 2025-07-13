@@ -31,9 +31,13 @@ aws-rbac/
     ├── role.tf # IAM role for EC2
     ├── assume-role-policy.tf # Allow group to assume role
     ├── outputs.tf # Outputs (group names, role names)
+
+
 environments/
     ├── dev.tfvars
     ├── prod.tfvars
+
+    
 
 ├── main.tf
 ├── variables.tf
