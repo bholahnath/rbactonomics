@@ -38,7 +38,6 @@ environments/
 ├── prod.tfvars
 
 
-
 ├── main.tf
 ├── variables.tf
 
